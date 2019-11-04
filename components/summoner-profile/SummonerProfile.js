@@ -1,6 +1,6 @@
 import React from 'react';
 import Wrapper from '../../hoc/Wrapper';
-import SummonerMatches from './SummonerMatches';
+import SummonerMatches from './summoner-matches/SummonerMatches';
 import '../../sass/partials/summoner-profile.sass'
 
 const SummonerProfile = ( props ) => {

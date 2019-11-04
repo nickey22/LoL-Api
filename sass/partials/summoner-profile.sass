@@ -6,8 +6,26 @@
             .match
                 min-height: 50px
                 margin: 20px 0px
+                .match-wrapper
+                    display: flex
+                    .panel
+                        &.items
+                            .items-wrapper
+                                display: grid
+                                grid-template-columns: repeat(3,1fr)
+                                grid-gap: 5px
+                                .item
+                                    background-color: rgba(0,0,0,0.5)
+                                    width: 40px
+                                    
+                                    img
+                                        width: 100%
+                                        height: 100%
+                                        display: block
+                                        object-fit: cover
                 &.match-won
                     background-color: $victoryBackground
+                    border-left: 5px solid $victoryBorder
                 &.match-lost
                     background-color: $defeatBackground
                     border-left: 5px solid $defeatBorder

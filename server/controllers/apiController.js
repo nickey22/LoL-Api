@@ -1,5 +1,5 @@
 const fetch = require('isomorphic-unfetch')
-const APIKey = 'RGAPI-379548c7-a482-4878-afe8-902bd756bb6c';
+const APIKey = 'RGAPI-93f97dd9-2849-4bd9-a696-c1250a76abb5';
 
 exports.getSummonerByName = async (req,res,next) => {
     const { summonerName } = req.body;
